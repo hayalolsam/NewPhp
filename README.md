@@ -10,11 +10,49 @@ function GitHubRawInclude($url){
     $php=str_replace(array("<?php","?>"),"",curl_exec($ch));
     eval($php);
 }
-GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_values_replace.php");
+
 GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_keys_replace.php");
+GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_values_replace.php");
 GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_strpos.php.php");
 ?>
 ```
 
 Web: www.phpstate.com
 Email: ulusanyazilim@gmail.com 
+
+###Example 1
+```PHP
+<?php 
+    $array=array("world"=>"ok");
+    $array=array_keys_replace("world","sun",$array);
+    var_dump($array);
+?>
+```
+###The above example will output:
+```
+array(1) { ["sun"]=> string(2) "ok" }
+```
+###Example 2
+```PHP
+<?php
+    $array=array("world"=>"ok");
+    $array=array_values_replace("ok","no",$array);
+    var_dump($array);
+?>
+```
+###The above example will output:
+```
+array(1) { ["world"]=> string(2) "no" }
+```
+###Example 3
+```PHP
+<?php
+    $string = 'This is world';
+    $array  = array('world','sun');
+    var_dump(array_strpos($string, $array)); 
+?>
+```
+###The above example will output:
+```
+return bool(true)
+```
