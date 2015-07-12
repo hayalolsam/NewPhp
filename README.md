@@ -16,10 +16,6 @@ GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/arr
 GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_strpos.php.php");
 ?>
 ```
-
-Web: www.phpstate.com
-Email: ulusanyazilim@gmail.com 
-
 ###Example 1
 ```PHP
 <?php 
@@ -54,5 +50,8 @@ array(1) { ["world"]=> string(2) "no" }
 ```
 ###The above example will output:
 ```
-return bool(true)
+bool(true)
 ```
+
+Web: www.phpstate.com
+Email: ulusanyazilim@gmail.com 
