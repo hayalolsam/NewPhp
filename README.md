@@ -13,7 +13,7 @@ function GitHubRawInclude($url){
 
 GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_keys_replace.php");
 GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_values_replace.php");
-GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_strpos.php.php");
+GitHubRawInclude("https://raw.githubusercontent.com/hayalolsam/NewPhp/master/array_strpos.php");
 ?>
 ```
 ###Example 1
