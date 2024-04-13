@@ -53,5 +53,5 @@ array(1) { ["world"]=> string(2) "no" }
 bool(true)
 ```
 
-Web: www.phpstate.com
-Email: ulusanyazilim@gmail.com 
+Web: www.hucrem.com
+Email: teknosenator@gmail.com 
